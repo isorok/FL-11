@@ -1,0 +1,160 @@
+@mixin text_transform ($header_font_size){
+    font-weight: bold;
+    color:$text_color;
+    font-size: $header_font_size;
+}
+@mixin button_transform (){
+    padding: 2% 5%  ;
+    background: $button_color;
+    border: none;
+    border-radius: 7%;
+    color:#fff;
+    @include text_transform(2vh);
+}
+body{
+    background-color:$background_color;
+    box-sizing: border-box;
+    font-family: $font_text;
+    .header{
+        background:$header_image no-repeat 100% 100%;
+        background-size: cover;
+        height:70vh;    
+        border-bottom-right-radius: 50%;
+        .header-wrap {
+            width: 80%;
+            margin: 0 auto;
+            .landing-logo {
+                p{
+                    @include text_transform(2.5vh);
+                    display: inline-block;
+                    margin: 0;
+                    text-align: center;
+                    span{
+                        @include text_transform(1.5vh);
+                        display: block;
+                        font-weight: normal;
+                    }
+                }
+            }
+            .header_heading{
+                @include text_transform(7vh);
+                width: 50%;
+                font-family: $font_standart;
+            }
+            .header_text{
+                @include text_transform(2vh);
+                font-weight: lighter;
+                width: 60%;
+            }
+            .header_button{
+                @include button_transform();
+            }
+        }
+    }
+    .section{
+        margin: 0 auto;
+        width: 80%;
+        .section_text{
+            text-align: center;
+            @include text_transform(4vh);
+            font-family: $font_standart;
+        }
+        .section_card_wrap{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom:15%; 
+            .section_card{
+                text-align: center;
+                border-radius: 5%;
+                background: $cards_background_color;
+                width: 32%;
+                color:#fff;
+                .section_card_img{
+                    display:block;
+                    margin:0 auto;
+                    width: 90%;
+                    padding: 5%;
+                    border-radius: 10%;
+                }
+                .section_card_heading{
+                    margin: 0;
+                    display:inline-block;
+                    @include text_transform(2vh);
+                    background: $text_gradient;
+                    color: #fff;
+                }
+            }
+        }
+        .section_banner{
+                display: flex;
+                justify-content: space-around;
+                margin: 0 auto;
+                background: $banner_gradient;
+                width: 80%;
+                position: relative;
+                border-radius: 4%;
+            .section_banner_text_wrap{
+                width: 50%;
+                display: inline-block;
+                .section_banner_heading{
+                    margin-bottom: 0;
+                    @include text_transform(3vh);
+                    font-family: $font_standart;
+                }
+                .section_banner_text{
+                    @include text_transform(2vh);
+                    font-weight: lighter;
+                    color: #fff;
+                    margin: 5% 0;
+                }
+                
+            }
+            .section_banner_button{
+                @include button_transform();
+                margin: 3.5% 0;
+            }
+        }
+    }
+    .footer{
+        background: $footer_background_color;
+        margin-top: -4%;
+        height: 25vh;
+        .footer-wrap{
+            display: flex;
+            justify-content: space-between;
+            padding-top:7%; 
+            width: 80%;
+            margin: 0 auto;
+            @include text_transform(2vh);
+            font-weight: lighter;
+            color: #fff;
+            .landing-logo {
+                width: 33%;
+                align-self: center;
+                p{
+                    @include text_transform(2.5vh);
+                    display: inline-block;
+                    margin: 0;
+                    text-align: center;
+                    span{
+                        @include text_transform(1.5vh);
+                        display: block;
+                        font-weight: normal;
+                    }
+                }
+            }
+            .footer_text{
+                display: block;
+                width: 33%;
+                
+            }
+            .footer-cr{
+                display: block;
+                width: 33%;
+                text-align: right;
+                align-self: center;
+            }
+        }     
+        
+    }
+}

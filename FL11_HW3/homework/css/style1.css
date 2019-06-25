@@ -1,0 +1,152 @@
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+  body .header {
+    background: url(../img/m-h-day.jpg) no-repeat 100% 100%;
+    background-size: cover;
+    height: 70vh;
+    border-bottom-right-radius: 50%; }
+    body .header .header-wrap {
+      width: 80%;
+      margin: 0 auto; }
+      body .header .header-wrap .landing-logo p {
+        font-weight: bold;
+        color: #282b39;
+        font-size: 2.5vh;
+        display: inline-block;
+        margin: 0;
+        text-align: center; }
+        body .header .header-wrap .landing-logo p span {
+          font-weight: bold;
+          color: #282b39;
+          font-size: 1.5vh;
+          display: block;
+          font-weight: normal; }
+      body .header .header-wrap .header_heading {
+        font-weight: bold;
+        color: #282b39;
+        font-size: 7vh;
+        width: 50%;
+        font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+      body .header .header-wrap .header_text {
+        font-weight: bold;
+        color: #282b39;
+        font-size: 2vh;
+        font-weight: lighter;
+        width: 60%; }
+      body .header .header-wrap .header_button {
+        padding: 2% 5%;
+        background: #699a00;
+        border: none;
+        border-radius: 7%;
+        color: #fff;
+        font-weight: bold;
+        color: #282b39;
+        font-size: 2vh; }
+  body .section {
+    margin: 0 auto;
+    width: 80%; }
+    body .section .section_text {
+      text-align: center;
+      font-weight: bold;
+      color: #282b39;
+      font-size: 4vh;
+      font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+    body .section .section_card_wrap {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15%; }
+      body .section .section_card_wrap .section_card {
+        text-align: center;
+        border-radius: 5%;
+        background: #1c1e2a;
+        width: 32%;
+        color: #fff; }
+        body .section .section_card_wrap .section_card .section_card_img {
+          display: block;
+          margin: 0 auto;
+          width: 90%;
+          padding: 5%;
+          border-radius: 10%; }
+        body .section .section_card_wrap .section_card .section_card_heading {
+          margin: 0;
+          display: inline-block;
+          font-weight: bold;
+          color: #282b39;
+          font-size: 2vh;
+          background: linear-gradient(rgba(59, 52, 247, 0) 0%, rgba(30, 33, 251, 0) 50%, #0f96ba 50%, #0ca1c8 100%);
+          color: #fff; }
+    body .section .section_banner {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      background: linear-gradient(to right, #659605, #5a8c2d, #4c7d62, #3c6d98, #2b5cce);
+      width: 80%;
+      position: relative;
+      border-radius: 4%; }
+      body .section .section_banner .section_banner_text_wrap {
+        width: 50%;
+        display: inline-block; }
+        body .section .section_banner .section_banner_text_wrap .section_banner_heading {
+          margin-bottom: 0;
+          font-weight: bold;
+          color: #282b39;
+          font-size: 3vh;
+          font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+        body .section .section_banner .section_banner_text_wrap .section_banner_text {
+          font-weight: bold;
+          color: #282b39;
+          font-size: 2vh;
+          font-weight: lighter;
+          color: #fff;
+          margin: 5% 0; }
+      body .section .section_banner .section_banner_button {
+        padding: 2% 5%;
+        background: #699a00;
+        border: none;
+        border-radius: 7%;
+        color: #fff;
+        font-weight: bold;
+        color: #282b39;
+        font-size: 2vh;
+        margin: 3.5% 0; }
+  body .footer {
+    background: #1c1e2a;
+    margin-top: -4%;
+    height: 25vh; }
+    body .footer .footer-wrap {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 7%;
+      width: 80%;
+      margin: 0 auto;
+      font-weight: bold;
+      color: #282b39;
+      font-size: 2vh;
+      font-weight: lighter;
+      color: #fff; }
+      body .footer .footer-wrap .landing-logo {
+        width: 33%;
+        align-self: center; }
+        body .footer .footer-wrap .landing-logo p {
+          font-weight: bold;
+          color: #282b39;
+          font-size: 2.5vh;
+          display: inline-block;
+          margin: 0;
+          text-align: center; }
+          body .footer .footer-wrap .landing-logo p span {
+            font-weight: bold;
+            color: #282b39;
+            font-size: 1.5vh;
+            display: block;
+            font-weight: normal; }
+      body .footer .footer-wrap .footer_text {
+        display: block;
+        width: 33%; }
+      body .footer .footer-wrap .footer-cr {
+        display: block;
+        width: 33%;
+        text-align: right;
+        align-self: center; }

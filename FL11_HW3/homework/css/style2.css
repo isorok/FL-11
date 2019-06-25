@@ -1,0 +1,152 @@
+body {
+  background-color: #1c1e2a;
+  box-sizing: border-box;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+  body .header {
+    background: url(../img/m-h-night.jpg) no-repeat 100% 100%;
+    background-size: cover;
+    height: 70vh;
+    border-bottom-right-radius: 50%; }
+    body .header .header-wrap {
+      width: 80%;
+      margin: 0 auto; }
+      body .header .header-wrap .landing-logo p {
+        font-weight: bold;
+        color: #fff;
+        font-size: 2.5vh;
+        display: inline-block;
+        margin: 0;
+        text-align: center; }
+        body .header .header-wrap .landing-logo p span {
+          font-weight: bold;
+          color: #fff;
+          font-size: 1.5vh;
+          display: block;
+          font-weight: normal; }
+      body .header .header-wrap .header_heading {
+        font-weight: bold;
+        color: #fff;
+        font-size: 7vh;
+        width: 50%;
+        font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+      body .header .header-wrap .header_text {
+        font-weight: bold;
+        color: #fff;
+        font-size: 2vh;
+        font-weight: lighter;
+        width: 60%; }
+      body .header .header-wrap .header_button {
+        padding: 2% 5%;
+        background: #e4ae00;
+        border: none;
+        border-radius: 7%;
+        color: #fff;
+        font-weight: bold;
+        color: #fff;
+        font-size: 2vh; }
+  body .section {
+    margin: 0 auto;
+    width: 80%; }
+    body .section .section_text {
+      text-align: center;
+      font-weight: bold;
+      color: #fff;
+      font-size: 4vh;
+      font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+    body .section .section_card_wrap {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15%; }
+      body .section .section_card_wrap .section_card {
+        text-align: center;
+        border-radius: 5%;
+        background: #383d4f;
+        width: 32%;
+        color: #fff; }
+        body .section .section_card_wrap .section_card .section_card_img {
+          display: block;
+          margin: 0 auto;
+          width: 90%;
+          padding: 5%;
+          border-radius: 10%; }
+        body .section .section_card_wrap .section_card .section_card_heading {
+          margin: 0;
+          display: inline-block;
+          font-weight: bold;
+          color: #fff;
+          font-size: 2vh;
+          background: linear-gradient(rgba(227, 171, 0, 0) 0%, rgba(206, 138, 251, 0) 50%, red 50%, #d60000 100%);
+          color: #fff; }
+    body .section .section_banner {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      background: linear-gradient(to right, #dea401, #cf8c0e, #bd6d24, #a4443f, #932851);
+      width: 80%;
+      position: relative;
+      border-radius: 4%; }
+      body .section .section_banner .section_banner_text_wrap {
+        width: 50%;
+        display: inline-block; }
+        body .section .section_banner .section_banner_text_wrap .section_banner_heading {
+          margin-bottom: 0;
+          font-weight: bold;
+          color: #fff;
+          font-size: 3vh;
+          font-family: Roboto, Ubuntu, Cantarell, Helvetica, sans-serif; }
+        body .section .section_banner .section_banner_text_wrap .section_banner_text {
+          font-weight: bold;
+          color: #fff;
+          font-size: 2vh;
+          font-weight: lighter;
+          color: #fff;
+          margin: 5% 0; }
+      body .section .section_banner .section_banner_button {
+        padding: 2% 5%;
+        background: #e4ae00;
+        border: none;
+        border-radius: 7%;
+        color: #fff;
+        font-weight: bold;
+        color: #fff;
+        font-size: 2vh;
+        margin: 3.5% 0; }
+  body .footer {
+    background: #383d4f;
+    margin-top: -4%;
+    height: 25vh; }
+    body .footer .footer-wrap {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 7%;
+      width: 80%;
+      margin: 0 auto;
+      font-weight: bold;
+      color: #fff;
+      font-size: 2vh;
+      font-weight: lighter;
+      color: #fff; }
+      body .footer .footer-wrap .landing-logo {
+        width: 33%;
+        align-self: center; }
+        body .footer .footer-wrap .landing-logo p {
+          font-weight: bold;
+          color: #fff;
+          font-size: 2.5vh;
+          display: inline-block;
+          margin: 0;
+          text-align: center; }
+          body .footer .footer-wrap .landing-logo p span {
+            font-weight: bold;
+            color: #fff;
+            font-size: 1.5vh;
+            display: block;
+            font-weight: normal; }
+      body .footer .footer-wrap .footer_text {
+        display: block;
+        width: 33%; }
+      body .footer .footer-wrap .footer-cr {
+        display: block;
+        width: 33%;
+        text-align: right;
+        align-self: center; }
