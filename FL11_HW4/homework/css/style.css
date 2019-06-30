@@ -1,0 +1,373 @@
+header {
+    background: url(/homework/img/sample2.jpg) 100% 100% no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+}
+
+.register_form {
+    width: 20%;
+}
+
+.register_form ul {
+    margin: 0;
+}
+
+.register_form li {
+    width: 40%;
+}
+
+.register_form li:hover {
+    background: rgba(252, 252, 252, 0.1);
+    cursor: pointer;
+}
+
+.top_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.logo p:hover {
+    cursor: pointer;
+}
+
+.header_title {
+    position: relative;
+    top: 10%;
+}
+
+.header_title h1 {
+    margin: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: normal;
+}
+
+.header_title h1 span {
+    font-size: 300%;
+    font-weight: normal;
+}
+
+.header_title h4 {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+}
+
+.navbar {
+    position: relative;
+    top: 51%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1% 2%;
+    border: 1.5px solid #F3F3F3;
+    width: 15%;
+}
+
+.navbar ul li:hover {
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.block {
+    width: 100%;
+    height: 35vh;
+    color: aliceblue;
+    background: linear-gradient(9deg, #F3F3F3 0%, #F3F3F3 50%, #000 51%, #000000 71%, #000000 100%);
+    display: block;
+}
+
+.block p {
+    margin: 0;
+}
+
+.block .left {
+    padding: 0 4%;
+    text-align: left;
+    width: 50%;
+    float: right;
+}
+
+.block .right {
+    padding: 0 2%;
+    position: relative;
+    text-align: left;
+    width: 25%;
+    color: #000;
+    top: 50%;
+}
+
+.block .right span {
+    font-weight: bold;
+}
+
+section {
+    background: #F3F3F3;
+}
+
+section h2 {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+section h2 span {
+    font-weight: bold;
+}
+
+.section_wrapper {
+    display: flex;
+    padding: 3% 1% 1% 1%;
+    justify-content: space-between;
+}
+
+.img_block {
+    position: relative;
+    width: 50%;
+    background: url(/homework/img/sample-1.jpg);
+    background-size: cover;
+    padding: 0 2%;
+    height: 50vh;
+}
+
+.img_block_2 {
+    position: relative;
+    width: 50%;
+    background: url(/homework/img/sample-2.jpg);
+    background-size: cover;
+    padding: 0 2%;
+    height: 50vh;
+}
+
+.content_img button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 2%;
+    border: 2px solid #FFF;
+    color: #FFF;
+    background: rgba(52, 54, 56, 0.7);
+}
+
+.content_img p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 2%;
+    color: #F0F0F0;
+    border: none;
+    background: none;
+}
+
+.content_img p span {
+    font-weight: bold;
+    color: #FFF;
+}
+
+.section_description {
+    padding: 3% 2%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+aside {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.multicard {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.multicard .card_1 {
+    position: relative;
+    background-size: cover;
+    padding: 0 2%;
+    background: url(/homework/img/news-list-1.jpg);
+    width: 20%;
+    margin: 2% 2%;
+    height: 55vh;
+}
+
+.multicard .card_2 {
+    position: relative;
+    background-size: cover;
+    padding: 0 2%;
+    background: url(/homework/img/news-list-2.jpg);
+    width: 20%;
+    margin: 2% 2%;
+    height: 55vh;
+}
+
+.multicard .card_3 {
+    position: relative;
+    background-size: cover;
+    padding: 0 2%;
+    background: url(/homework/img/news-list-3.jpg);
+    width: 20%;
+    margin: 2% 2%;
+    height: 55vh;
+}
+
+.multicard .card_4 {
+    position: relative;
+    background-size: cover;
+    padding: 0 2%;
+    background: url(/homework/img/news-list-4.jpg);
+    width: 20%;
+    margin: 2% 2%;
+    height: 55vh;
+}
+
+.multicard .card_button {
+    position: relative;
+    top: 50%;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    padding-left: 40%;
+    background: #097774;
+    color: #E8E8E8;
+    font-weight: bold;
+    border: #097774;
+}
+
+.multicard .card .content_img button {
+    position: absolute;
+    width: 25%;
+    height: 9%;
+    right: 0;
+    top: 0;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #FFF;
+    color: #FFF;
+    background: rgba(52, 54, 56, 0.7);
+}
+
+.multicard .card button:hover {
+    cursor: pointer;
+    background: #097773c6;
+}
+
+.aside_button {
+    position: relative;
+    left: 38%;
+    display: flex;
+    width: 25%;
+    height: 7vh;
+    padding-left: 10%;
+    margin-bottom: 2%;
+    background: #097774;
+    color: #E8E8E8;
+    font-weight: lighter;
+    border: #097774;
+}
+
+.subs_form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subs_form h4 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 20px;
+    margin-right: 1%;
+}
+
+.subs_section {
+    padding: 4% 2%;
+}
+
+.subs_form span {
+    font-weight: bold;
+}
+
+.subs_form .input_form input[type='email'] {
+    background: #f3f3f3;
+    margin-left: 5%;
+    padding: 2%;
+    width: 50%;
+    height: 70%;
+    border: solid 1px #000;
+}
+
+.subs_form .input_form input[type='email']::placeholder {
+    color: #000;
+}
+
+.subs_form .input_form input[type='button'] {
+    background: #097774;
+    color: #fff;
+    border: #097774 solid 1px;
+    padding: 2%;
+    height: 100%;
+}
+
+.subs_form .input_form input[type='button']:hover {
+    cursor: pointer;
+    background: #097773c6;
+}
+
+.footer_bar {
+    margin: 1% 5%;
+}
+
+.footer_bar p {
+    display: inline-block;
+    color: #B7C8D9;
+}
+
+footer ul {
+    text-align: end;
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-left: 5%;
+}
+
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
