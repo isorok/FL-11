@@ -1,0 +1,43 @@
+#root {
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    border: 1px solid black;
+    margin: 0 auto;
+    color: rgb(56, 189, 233);
+}
+
+.header {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.top {
+    margin: 0 auto;
+    width: 90%;
+    border-bottom: 2px solid rgb(56, 189, 233);
+}
+
+.form {
+    display: inline-block;
+    width: 95%;
+    padding-bottom: 1%;
+}
+
+#add_action {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.input-line {
+    align-self: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
